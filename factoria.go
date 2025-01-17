@@ -1,4 +1,4 @@
-package factorial
+package arithmetic
 
 func Calculate(n int) int {
 	if n == 0 || n == 1 {

@@ -1,7 +1,6 @@
-package circle
+ package main
 
-import "math"
-
-func CalculateArea(radius float64) float64 {
-	return math.Pi * math.Pow(radius, 2)
+ 
+func CalculateCircleArea(radius float64) float64 {
+	return math.Pi * radius * radius
 }
